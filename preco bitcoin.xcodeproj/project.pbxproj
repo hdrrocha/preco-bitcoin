@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EE20EF92053044300E32621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE20EF82053044300E32621 /* AppDelegate.swift */; };
+		9EE20EFB2053044300E32621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE20EFA2053044300E32621 /* ViewController.swift */; };
+		9EE20EFE2053044300E32621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE20EFC2053044300E32621 /* Main.storyboard */; };
+		9EE20F012053044300E32621 /* preco_bitcoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EE20EFF2053044300E32621 /* preco_bitcoin.xcdatamodeld */; };
+		9EE20F032053044300E32621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE20F022053044300E32621 /* Assets.xcassets */; };
+		9EE20F062053044300E32621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE20F042053044300E32621 /* LaunchScreen.storyboard */; };
+		9EE20F112053044300E32621 /* preco_bitcoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE20F102053044300E32621 /* preco_bitcoinTests.swift */; };
+		9EE20F1C2053044300E32621 /* preco_bitcoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE20F1B2053044300E32621 /* preco_bitcoinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EE20F0D2053044300E32621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE20EED2053044300E32621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE20EF42053044300E32621;
+			remoteInfo = "preco bitcoin";
+		};
+		9EE20F182053044300E32621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE20EED2053044300E32621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE20EF42053044300E32621;
+			remoteInfo = "preco bitcoin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EE20EF52053044300E32621 /* preco bitcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "preco bitcoin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE20EF82053044300E32621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EE20EFA2053044300E32621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EE20EFD2053044300E32621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EE20F002053044300E32621 /* preco_bitcoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = preco_bitcoin.xcdatamodel; sourceTree = "<group>"; };
+		9EE20F022053044300E32621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EE20F052053044300E32621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EE20F072053044300E32621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE20F0C2053044300E32621 /* preco bitcoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "preco bitcoinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE20F102053044300E32621 /* preco_bitcoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preco_bitcoinTests.swift; sourceTree = "<group>"; };
+		9EE20F122053044300E32621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE20F172053044300E32621 /* preco bitcoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "preco bitcoinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE20F1B2053044300E32621 /* preco_bitcoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preco_bitcoinUITests.swift; sourceTree = "<group>"; };
+		9EE20F1D2053044300E32621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EE20EF22053044300E32621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE20F092053044300E32621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE20F142053044300E32621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EE20EEC2053044300E32621 = {
+			isa = PBXGroup;
+			children = (
+				9EE20EF72053044300E32621 /* preco bitcoin */,
+				9EE20F0F2053044300E32621 /* preco bitcoinTests */,
+				9EE20F1A2053044300E32621 /* preco bitcoinUITests */,
+				9EE20EF62053044300E32621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EE20EF62053044300E32621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE20EF52053044300E32621 /* preco bitcoin.app */,
+				9EE20F0C2053044300E32621 /* preco bitcoinTests.xctest */,
+				9EE20F172053044300E32621 /* preco bitcoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EE20EF72053044300E32621 /* preco bitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				9EE20EF82053044300E32621 /* AppDelegate.swift */,
+				9EE20EFA2053044300E32621 /* ViewController.swift */,
+				9EE20EFC2053044300E32621 /* Main.storyboard */,
+				9EE20F022053044300E32621 /* Assets.xcassets */,
+				9EE20F042053044300E32621 /* LaunchScreen.storyboard */,
+				9EE20F072053044300E32621 /* Info.plist */,
+				9EE20EFF2053044300E32621 /* preco_bitcoin.xcdatamodeld */,
+			);
+			path = "preco bitcoin";
+			sourceTree = "<group>";
+		};
+		9EE20F0F2053044300E32621 /* preco bitcoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EE20F102053044300E32621 /* preco_bitcoinTests.swift */,
+				9EE20F122053044300E32621 /* Info.plist */,
+			);
+			path = "preco bitcoinTests";
+			sourceTree = "<group>";
+		};
+		9EE20F1A2053044300E32621 /* preco bitcoinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EE20F1B2053044300E32621 /* preco_bitcoinUITests.swift */,
+				9EE20F1D2053044300E32621 /* Info.plist */,
+			);
+			path = "preco bitcoinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EE20EF42053044300E32621 /* preco bitcoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE20F202053044300E32621 /* Build configuration list for PBXNativeTarget "preco bitcoin" */;
+			buildPhases = (
+				9EE20EF12053044300E32621 /* Sources */,
+				9EE20EF22053044300E32621 /* Frameworks */,
+				9EE20EF32053044300E32621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "preco bitcoin";
+			productName = "preco bitcoin";
+			productReference = 9EE20EF52053044300E32621 /* preco bitcoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EE20F0B2053044300E32621 /* preco bitcoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE20F232053044300E32621 /* Build configuration list for PBXNativeTarget "preco bitcoinTests" */;
+			buildPhases = (
+				9EE20F082053044300E32621 /* Sources */,
+				9EE20F092053044300E32621 /* Frameworks */,
+				9EE20F0A2053044300E32621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE20F0E2053044300E32621 /* PBXTargetDependency */,
+			);
+			name = "preco bitcoinTests";
+			productName = "preco bitcoinTests";
+			productReference = 9EE20F0C2053044300E32621 /* preco bitcoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EE20F162053044300E32621 /* preco bitcoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE20F262053044300E32621 /* Build configuration list for PBXNativeTarget "preco bitcoinUITests" */;
+			buildPhases = (
+				9EE20F132053044300E32621 /* Sources */,
+				9EE20F142053044300E32621 /* Frameworks */,
+				9EE20F152053044300E32621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE20F192053044300E32621 /* PBXTargetDependency */,
+			);
+			name = "preco bitcoinUITests";
+			productName = "preco bitcoinUITests";
+			productReference = 9EE20F172053044300E32621 /* preco bitcoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EE20EED2053044300E32621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Helder Rocha";
+				TargetAttributes = {
+					9EE20EF42053044300E32621 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					9EE20F0B2053044300E32621 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EE20EF42053044300E32621;
+					};
+					9EE20F162053044300E32621 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EE20EF42053044300E32621;
+					};
+				};
+			};
+			buildConfigurationList = 9EE20EF02053044300E32621 /* Build configuration list for PBXProject "preco bitcoin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EE20EEC2053044300E32621;
+			productRefGroup = 9EE20EF62053044300E32621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EE20EF42053044300E32621 /* preco bitcoin */,
+				9EE20F0B2053044300E32621 /* preco bitcoinTests */,
+				9EE20F162053044300E32621 /* preco bitcoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EE20EF32053044300E32621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE20F062053044300E32621 /* LaunchScreen.storyboard in Resources */,
+				9EE20F032053044300E32621 /* Assets.xcassets in Resources */,
+				9EE20EFE2053044300E32621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE20F0A2053044300E32621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE20F152053044300E32621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EE20EF12053044300E32621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE20F012053044300E32621 /* preco_bitcoin.xcdatamodeld in Sources */,
+				9EE20EFB2053044300E32621 /* ViewController.swift in Sources */,
+				9EE20EF92053044300E32621 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE20F082053044300E32621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE20F112053044300E32621 /* preco_bitcoinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE20F132053044300E32621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE20F1C2053044300E32621 /* preco_bitcoinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EE20F0E2053044300E32621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EE20EF42053044300E32621 /* preco bitcoin */;
+			targetProxy = 9EE20F0D2053044300E32621 /* PBXContainerItemProxy */;
+		};
+		9EE20F192053044300E32621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EE20EF42053044300E32621 /* preco bitcoin */;
+			targetProxy = 9EE20F182053044300E32621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EE20EFC2053044300E32621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EE20EFD2053044300E32621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EE20F042053044300E32621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EE20F052053044300E32621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EE20F1E2053044300E32621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EE20F1F2053044300E32621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EE20F212053044300E32621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "preco bitcoin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Helder.preco-bitcoin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EE20F222053044300E32621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "preco bitcoin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Helder.preco-bitcoin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EE20F242053044300E32621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "preco bitcoinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Helder.preco-bitcoinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/preco bitcoin.app/preco bitcoin";
+			};
+			name = Debug;
+		};
+		9EE20F252053044300E32621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "preco bitcoinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Helder.preco-bitcoinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/preco bitcoin.app/preco bitcoin";
+			};
+			name = Release;
+		};
+		9EE20F272053044300E32621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "preco bitcoinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Helder.preco-bitcoinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "preco bitcoin";
+			};
+			name = Debug;
+		};
+		9EE20F282053044300E32621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "preco bitcoinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Helder.preco-bitcoinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "preco bitcoin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EE20EF02053044300E32621 /* Build configuration list for PBXProject "preco bitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE20F1E2053044300E32621 /* Debug */,
+				9EE20F1F2053044300E32621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE20F202053044300E32621 /* Build configuration list for PBXNativeTarget "preco bitcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE20F212053044300E32621 /* Debug */,
+				9EE20F222053044300E32621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE20F232053044300E32621 /* Build configuration list for PBXNativeTarget "preco bitcoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE20F242053044300E32621 /* Debug */,
+				9EE20F252053044300E32621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE20F262053044300E32621 /* Build configuration list for PBXNativeTarget "preco bitcoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE20F272053044300E32621 /* Debug */,
+				9EE20F282053044300E32621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9EE20EFF2053044300E32621 /* preco_bitcoin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9EE20F002053044300E32621 /* preco_bitcoin.xcdatamodel */,
+			);
+			currentVersion = 9EE20F002053044300E32621 /* preco_bitcoin.xcdatamodel */;
+			path = preco_bitcoin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9EE20EED2053044300E32621 /* Project object */;
+}
